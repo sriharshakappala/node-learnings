@@ -1,0 +1,169 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'selenium-webdriver',
+1 verbose cli   '-g' ]
+2 info using npm@3.3.12
+3 info using node@v5.5.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readGlobalPackageData
+7 silly fetchPackageMetaData selenium-webdriver
+8 silly fetchNamedPackageData selenium-webdriver
+9 silly mapToRegistry name selenium-webdriver
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry uri https://registry.npmjs.org/selenium-webdriver
+13 verbose request uri https://registry.npmjs.org/selenium-webdriver
+14 verbose request no auth needed
+15 info attempt registry request try #1 at 11:15:12 AM
+16 verbose request id ea61d2c52006c6ed
+17 http request GET https://registry.npmjs.org/selenium-webdriver
+18 http 200 https://registry.npmjs.org/selenium-webdriver
+19 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+19 verbose headers   etag: '"1ASF3WPRTEQ47114Y9KDFVBT6"',
+19 verbose headers   'content-type': 'application/json',
+19 verbose headers   'content-encoding': 'gzip',
+19 verbose headers   'cache-control': 'max-age=300',
+19 verbose headers   'content-length': '9302',
+19 verbose headers   'accept-ranges': 'bytes',
+19 verbose headers   date: 'Sun, 01 May 2016 05:45:44 GMT',
+19 verbose headers   via: '1.1 varnish',
+19 verbose headers   age: '0',
+19 verbose headers   connection: 'keep-alive',
+19 verbose headers   'x-served-by': 'cache-sin6927-SIN',
+19 verbose headers   'x-cache': 'HIT',
+19 verbose headers   'x-cache-hits': '1',
+19 verbose headers   'x-timer': 'S1462081543.431056,VS0,VE830',
+19 verbose headers   vary: 'Accept-Encoding' }
+20 silly get cb [ 200,
+20 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+20 silly get     etag: '"1ASF3WPRTEQ47114Y9KDFVBT6"',
+20 silly get     'content-type': 'application/json',
+20 silly get     'content-encoding': 'gzip',
+20 silly get     'cache-control': 'max-age=300',
+20 silly get     'content-length': '9302',
+20 silly get     'accept-ranges': 'bytes',
+20 silly get     date: 'Sun, 01 May 2016 05:45:44 GMT',
+20 silly get     via: '1.1 varnish',
+20 silly get     age: '0',
+20 silly get     connection: 'keep-alive',
+20 silly get     'x-served-by': 'cache-sin6927-SIN',
+20 silly get     'x-cache': 'HIT',
+20 silly get     'x-cache-hits': '1',
+20 silly get     'x-timer': 'S1462081543.431056,VS0,VE830',
+20 silly get     vary: 'Accept-Encoding' } ]
+21 verbose get saving selenium-webdriver to C:\Users\Sri Harsha Kappala\AppData\Roaming\npm-cache\registry.npmjs.org\selenium-webdriver\.cache.json
+22 silly install normalizeTree
+23 silly loadCurrentTree Finishing
+24 silly loadIdealTree Starting
+25 silly install loadIdealTree
+26 silly cloneCurrentTree Starting
+27 silly install cloneCurrentTreeToIdealTree
+28 silly cloneCurrentTree Finishing
+29 silly loadShrinkwrap Starting
+30 silly install loadShrinkwrap
+31 silly loadShrinkwrap Finishing
+32 silly loadAllDepsIntoIdealTree Starting
+33 silly install loadAllDepsIntoIdealTree
+34 silly resolveWithNewModule selenium-webdriver@2.53.2 checking installable status
+35 silly cache add args [ 'selenium-webdriver', null ]
+36 verbose cache add spec selenium-webdriver
+37 silly cache add parsed spec Result {
+37 silly cache add   raw: 'selenium-webdriver',
+37 silly cache add   scope: null,
+37 silly cache add   name: 'selenium-webdriver',
+37 silly cache add   rawSpec: '',
+37 silly cache add   spec: '*',
+37 silly cache add   type: 'range' }
+38 silly addNamed selenium-webdriver@*
+39 verbose addNamed "*" is a valid semver range for selenium-webdriver
+40 silly addNameRange { name: 'selenium-webdriver', range: '*', hasData: false }
+41 silly mapToRegistry name selenium-webdriver
+42 silly mapToRegistry using default registry
+43 silly mapToRegistry registry https://registry.npmjs.org/
+44 silly mapToRegistry uri https://registry.npmjs.org/selenium-webdriver
+45 verbose addNameRange registry:https://registry.npmjs.org/selenium-webdriver not in flight; fetching
+46 verbose get https://registry.npmjs.org/selenium-webdriver not expired, no request
+47 silly addNameRange number 2 { name: 'selenium-webdriver', range: '*', hasData: true }
+48 silly addNameRange versions [ 'selenium-webdriver',
+48 silly addNameRange   [ '2.29.0',
+48 silly addNameRange     '2.29.1',
+48 silly addNameRange     '2.30.0',
+48 silly addNameRange     '2.31.0',
+48 silly addNameRange     '2.32.0',
+48 silly addNameRange     '2.32.1',
+48 silly addNameRange     '2.33.0',
+48 silly addNameRange     '2.34.0',
+48 silly addNameRange     '2.34.1',
+48 silly addNameRange     '2.35.0',
+48 silly addNameRange     '2.35.1',
+48 silly addNameRange     '2.35.2',
+48 silly addNameRange     '2.37.0',
+48 silly addNameRange     '2.38.0',
+48 silly addNameRange     '2.38.1',
+48 silly addNameRange     '2.39.0',
+48 silly addNameRange     '2.40.0',
+48 silly addNameRange     '2.41.0',
+48 silly addNameRange     '2.42.0',
+48 silly addNameRange     '2.42.1',
+48 silly addNameRange     '2.43.1',
+48 silly addNameRange     '2.43.2',
+48 silly addNameRange     '2.43.3',
+48 silly addNameRange     '2.43.4',
+48 silly addNameRange     '2.43.5',
+48 silly addNameRange     '2.44.0',
+48 silly addNameRange     '2.45.0',
+48 silly addNameRange     '2.45.1',
+48 silly addNameRange     '2.46.0',
+48 silly addNameRange     '2.46.1',
+48 silly addNameRange     '2.47.0',
+48 silly addNameRange     '2.48.0',
+48 silly addNameRange     '2.48.1',
+48 silly addNameRange     '2.48.2',
+48 silly addNameRange     '2.52.0',
+48 silly addNameRange     '2.53.1',
+48 silly addNameRange     '2.53.2' ] ]
+49 silly addNamed selenium-webdriver@2.53.2
+50 verbose addNamed "2.53.2" is a plain semver version for selenium-webdriver
+51 silly mapToRegistry name selenium-webdriver
+52 silly mapToRegistry using default registry
+53 silly mapToRegistry registry https://registry.npmjs.org/
+54 silly mapToRegistry uri https://registry.npmjs.org/selenium-webdriver
+55 verbose addRemoteTarball https://registry.npmjs.org/selenium-webdriver/-/selenium-webdriver-2.53.2.tgz not in flight; adding
+56 verbose addRemoteTarball [ 'https://registry.npmjs.org/selenium-webdriver/-/selenium-webdriver-2.53.2.tgz',
+56 verbose addRemoteTarball   '7d45f0b44c4d90d9c94b136e2dcaa0a70d54d67b' ]
+57 info retry fetch attempt 1 at 11:16:04 AM
+58 info attempt registry request try #1 at 11:16:04 AM
+59 http fetch GET https://registry.npmjs.org/selenium-webdriver/-/selenium-webdriver-2.53.2.tgz
+60 http fetch 200 https://registry.npmjs.org/selenium-webdriver/-/selenium-webdriver-2.53.2.tgz
+61 silly fetchAndShaCheck shasum 7d45f0b44c4d90d9c94b136e2dcaa0a70d54d67b
+62 silly rollbackFailedOptional Starting
+63 silly rollbackFailedOptional Finishing
+64 silly runTopLevelLifecycles Starting
+65 silly runTopLevelLifecycles Finishing
+66 silly install printInstalled
+67 verbose stack Error: shasum check failed for C:\Users\Sri Harsha Kappala\AppData\Local\Temp\npm-7524-fa723d9f\registry.npmjs.org\selenium-webdriver\-\selenium-webdriver-2.53.2.tgz
+67 verbose stack Expected: 7d45f0b44c4d90d9c94b136e2dcaa0a70d54d67b
+67 verbose stack Actual:   ec34b9991a12aba2057eae5c5292bc6b47441225
+67 verbose stack From:     https://registry.npmjs.org/selenium-webdriver/-/selenium-webdriver-2.53.2.tgz
+67 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\sha\index.js:25:8
+67 verbose stack     at ReadStream.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\sha\index.js:72:7)
+67 verbose stack     at emitNone (events.js:85:20)
+67 verbose stack     at ReadStream.emit (events.js:179:7)
+67 verbose stack     at endReadableNT (_stream_readable.js:906:12)
+67 verbose stack     at nextTickCallbackWith2Args (node.js:474:9)
+67 verbose stack     at process._tickCallback (node.js:388:17)
+68 verbose cwd D:\Workspace\NodeJS
+69 error Windows_NT 10.0.10586
+70 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "selenium-webdriver" "-g"
+71 error node v5.5.0
+72 error npm  v3.3.12
+73 error shasum check failed for C:\Users\Sri Harsha Kappala\AppData\Local\Temp\npm-7524-fa723d9f\registry.npmjs.org\selenium-webdriver\-\selenium-webdriver-2.53.2.tgz
+73 error Expected: 7d45f0b44c4d90d9c94b136e2dcaa0a70d54d67b
+73 error Actual:   ec34b9991a12aba2057eae5c5292bc6b47441225
+73 error From:     https://registry.npmjs.org/selenium-webdriver/-/selenium-webdriver-2.53.2.tgz
+74 error If you need help, you may report this error at:
+74 error     <https://github.com/npm/npm/issues>
+75 verbose exit [ 1, true ]
